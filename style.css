@@ -39,7 +39,7 @@ footer{
 // Dispositivos extra large (desktops grandes com 1200px ou mais)
 @media (min-width: 1200px) { ... }
 
-// MDB Lightbox Init
+// MDB lightbox Init
 $(function () {
 $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
