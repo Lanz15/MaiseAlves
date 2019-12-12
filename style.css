@@ -5,6 +5,8 @@ body{
     background-color: black;
 }
 
+ 
+
 footer{
     color: #ccc;
 }
@@ -36,3 +38,42 @@ footer{
 
 // Dispositivos extra large (desktops grandes com 1200px ou mais)
 @media (min-width: 1200px) { ... }
+
+// MDB Lightbox Init
+$(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+
+<!-- Proporção 21:9 -->
+<div class="embed-responsive embed-responsive-21by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- Proporção 16:9 -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!--Proporção 4:3 -->
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!--Proporção 1:1 -->
+<div class="embed-responsive embed-responsive-1by1">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+// O mixin, em si.
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+// Como usar o mixin.
+.element {
+  @include clearfix;
+}
