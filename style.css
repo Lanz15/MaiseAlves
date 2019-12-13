@@ -1,23 +1,22 @@
 body{
     background-color: rgb(3, 3, 3);
+    padding-top: 30px;
 }
 .a {
     background-color: black;
 }
 
- 
-
 footer{
     color: #ccc;
 }
 .fa-facebook:hover{
-    color: blue !important;
+    color: rgb(129, 27, 86) !important;
 }
 .fa-instagram:hover{
-    color: blue !important;
+    color: rgb(129, 27, 86)!important;
 }
 .fa-whatsapp:hover{
-    color: blue !important;
+    color: rgb(129, 27, 86) !important;
 }
 
 /* .navbar{
@@ -39,12 +38,10 @@ footer{
 // Dispositivos extra large (desktops grandes com 1200px ou mais)
 @media (min-width: 1200px) { ... }
 
-// MDB lightbox Init
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
 
-<!-- Proporção 21:9 -->
+
+
+/* <!-- Proporção 21:9 -->
 <div class="embed-responsive embed-responsive-21by9">
   <iframe class="embed-responsive-item" src="..."></iframe>
 </div>
@@ -62,18 +59,18 @@ $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 <!--Proporção 1:1 -->
 <div class="embed-responsive embed-responsive-1by1">
   <iframe class="embed-responsive-item" src="..."></iframe>
-</div>
+</div> */
 
-// O mixin, em si.
+/* // O mixin, em si.
 @mixin clearfix() {
   &::after {
     display: block;
     content: "";
     clear: both;
   }
-}
+} */
 
-// Como usar o mixin.
+/* // Como usar o mixin.
 .element {
   @include clearfix;
-}
+} */
