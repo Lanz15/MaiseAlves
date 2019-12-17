@@ -6,17 +6,31 @@ body{
     background-color: black;
 }
 
+.digital-influencer:hover{
+  color: rgb(252, 50, 168) !important;
+}
+
+
 footer{
     color: #ccc;
 }
 .fa-facebook:hover{
-    color: rgb(129, 27, 86) !important;
+    color:rgb(252, 50, 168) !important;
 }
 .fa-instagram:hover{
-    color: rgb(129, 27, 86)!important;
+    color: rgb(252, 50, 168) !important;
 }
 .fa-whatsapp:hover{
-    color: rgb(129, 27, 86) !important;
+    color: rgb(252, 50, 168) !important;
+}
+
+.texto-cinza{
+  color: #ccc;
+}
+
+.btn-enviar:hover{
+  border-color:rgb(252, 50, 168) !important;
+  background-color:rgb(252, 50, 168) !important;
 }
 
 /* .navbar{
@@ -61,16 +75,3 @@ footer{
   <iframe class="embed-responsive-item" src="..."></iframe>
 </div> */
 
-/* // O mixin, em si.
-@mixin clearfix() {
-  &::after {
-    display: block;
-    content: "";
-    clear: both;
-  }
-} */
-
-/* // Como usar o mixin.
-.element {
-  @include clearfix;
-} */
