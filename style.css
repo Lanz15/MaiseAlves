@@ -5,11 +5,10 @@ body{
 .a {
     background-color: black;
 }
-
-.digital-influencer:hover{
-  color: rgb(252, 50, 168) !important;
+.digital-influencer{
+  color: black;
+  text-shadow: 0 2px 4px whitesmoke;
 }
-
 
 footer{
     color: #ccc;
